@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		248C21E91D9028BD008BED8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C21E81D9028BD008BED8A /* main.m */; };
-		248C21EC1D9028BD008BED8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C21EB1D9028BD008BED8A /* AppDelegate.m */; };
-		248C21EF1D9028BD008BED8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C21EE1D9028BD008BED8A /* ViewController.m */; };
-		248C21F21D9028BD008BED8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248C21F01D9028BD008BED8A /* Main.storyboard */; };
 		248C21F41D9028BD008BED8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248C21F31D9028BD008BED8A /* Assets.xcassets */; };
 		248C21F71D9028BD008BED8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248C21F51D9028BD008BED8A /* LaunchScreen.storyboard */; };
+		248C22291D9029BE008BED8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C22271D9029BE008BED8A /* ViewController.m */; };
+		248C222A1D9029BE008BED8A /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248C22281D9029BE008BED8A /* View.xib */; };
+		248C222D1D902A32008BED8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248C222C1D902A32008BED8A /* AppDelegate.m */; };
+		248C22301D902A58008BED8A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C222F1D902A58008BED8A /* CoreText.framework */; };
+		248C22321D902A65008BED8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C22311D902A65008BED8A /* CoreGraphics.framework */; };
+		248C22341D902A6A008BED8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C22331D902A6A008BED8A /* QuartzCore.framework */; };
+		248C22361D902A70008BED8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C22351D902A70008BED8A /* Foundation.framework */; };
+		248C22381D902A76008BED8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C22371D902A76008BED8A /* UIKit.framework */; };
+		DCF5FB785A73A6252817EFC4 /* libPods-MathDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491085CC1B00E82BBEB32DA /* libPods-MathDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		248C21E41D9028BD008BED8A /* MathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248C21E81D9028BD008BED8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		248C21EA1D9028BD008BED8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		248C21EB1D9028BD008BED8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		248C21ED1D9028BD008BED8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		248C21EE1D9028BD008BED8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		248C21F11D9028BD008BED8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		248C21F31D9028BD008BED8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248C21F61D9028BD008BED8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248C21F81D9028BD008BED8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248C22261D9029BE008BED8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		248C22271D9029BE008BED8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		248C22281D9029BE008BED8A /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		248C222B1D902A32008BED8A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		248C222C1D902A32008BED8A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		248C222F1D902A58008BED8A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		248C22311D902A65008BED8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		248C22331D902A6A008BED8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		248C22351D902A70008BED8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		248C22371D902A76008BED8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8491085CC1B00E82BBEB32DA /* libPods-MathDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3586190C4C1E773985D98C /* Pods-MathDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDemo/Pods-MathDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B2F398089FCC9FB592248A2E /* Pods-MathDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDemo/Pods-MathDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248C22381D902A76008BED8A /* UIKit.framework in Frameworks */,
+				248C22361D902A70008BED8A /* Foundation.framework in Frameworks */,
+				248C22341D902A6A008BED8A /* QuartzCore.framework in Frameworks */,
+				248C22321D902A65008BED8A /* CoreGraphics.framework in Frameworks */,
+				248C22301D902A58008BED8A /* CoreText.framework in Frameworks */,
+				DCF5FB785A73A6252817EFC4 /* libPods-MathDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +64,8 @@
 			children = (
 				248C21E61D9028BD008BED8A /* MathDemo */,
 				248C21E51D9028BD008BED8A /* Products */,
+				248C222E1D902A57008BED8A /* Frameworks */,
+				E597EE6EBF03E8192F460DA1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +80,11 @@
 		248C21E61D9028BD008BED8A /* MathDemo */ = {
 			isa = PBXGroup;
 			children = (
-				248C21EA1D9028BD008BED8A /* AppDelegate.h */,
-				248C21EB1D9028BD008BED8A /* AppDelegate.m */,
-				248C21ED1D9028BD008BED8A /* ViewController.h */,
-				248C21EE1D9028BD008BED8A /* ViewController.m */,
-				248C21F01D9028BD008BED8A /* Main.storyboard */,
+				248C22261D9029BE008BED8A /* ViewController.h */,
+				248C22271D9029BE008BED8A /* ViewController.m */,
+				248C222B1D902A32008BED8A /* AppDelegate.h */,
+				248C222C1D902A32008BED8A /* AppDelegate.m */,
+				248C22281D9029BE008BED8A /* View.xib */,
 				248C21F31D9028BD008BED8A /* Assets.xcassets */,
 				248C21F51D9028BD008BED8A /* LaunchScreen.storyboard */,
 				248C21F81D9028BD008BED8A /* Info.plist */,
@@ -79,6 +101,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		248C222E1D902A57008BED8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248C22371D902A76008BED8A /* UIKit.framework */,
+				248C22351D902A70008BED8A /* Foundation.framework */,
+				248C22331D902A6A008BED8A /* QuartzCore.framework */,
+				248C22311D902A65008BED8A /* CoreGraphics.framework */,
+				248C222F1D902A58008BED8A /* CoreText.framework */,
+				8491085CC1B00E82BBEB32DA /* libPods-MathDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E597EE6EBF03E8192F460DA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2F398089FCC9FB592248A2E /* Pods-MathDemo.debug.xcconfig */,
+				AE3586190C4C1E773985D98C /* Pods-MathDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248C21FB1D9028BD008BED8A /* Build configuration list for PBXNativeTarget "MathDemo" */;
 			buildPhases = (
+				03F5BB6420920B7BA7053B2D /* Check Pods Manifest.lock */,
 				248C21E01D9028BD008BED8A /* Sources */,
 				248C21E11D9028BD008BED8A /* Frameworks */,
 				248C21E21D9028BD008BED8A /* Resources */,
+				A96724921A511A97D5B60F41 /* Embed Pods Frameworks */,
+				5147BC41A551EA6A18954557 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,21 +185,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248C222A1D9029BE008BED8A /* View.xib in Resources */,
 				248C21F71D9028BD008BED8A /* LaunchScreen.storyboard in Resources */,
 				248C21F41D9028BD008BED8A /* Assets.xcassets in Resources */,
-				248C21F21D9028BD008BED8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F5BB6420920B7BA7053B2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5147BC41A551EA6A18954557 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDemo/Pods-MathDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96724921A511A97D5B60F41 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDemo/Pods-MathDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		248C21E01D9028BD008BED8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248C21EF1D9028BD008BED8A /* ViewController.m in Sources */,
-				248C21EC1D9028BD008BED8A /* AppDelegate.m in Sources */,
+				248C22291D9029BE008BED8A /* ViewController.m in Sources */,
+				248C222D1D902A32008BED8A /* AppDelegate.m in Sources */,
 				248C21E91D9028BD008BED8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,14 +255,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		248C21F01D9028BD008BED8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				248C21F11D9028BD008BED8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		248C21F51D9028BD008BED8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,10 +356,12 @@
 		};
 		248C21FC1D9028BD008BED8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F398089FCC9FB592248A2E /* Pods-MathDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H5YBBSJHKX;
 				INFOPLIST_FILE = MathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.MathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +370,12 @@
 		};
 		248C21FD1D9028BD008BED8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3586190C4C1E773985D98C /* Pods-MathDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H5YBBSJHKX;
 				INFOPLIST_FILE = MathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.MathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +401,7 @@
 				248C21FD1D9028BD008BED8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
